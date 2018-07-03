@@ -1,0 +1,220 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: svchost - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/svchost.res" /d "NDEBUG" "C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\Server\svchost\svchost.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4E9.tmp" with contents
+[
+/nologo /MT /w /W0 /GX /O2 /I "../../common" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_DLL" /FR"Release/" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\common\Audio.cpp"
+"C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\Server\svchost\common\AudioManager.cpp"
+"C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\Server\svchost\common\Buffer.cpp"
+"C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\Server\svchost\ClientSocket.cpp"
+"C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\Server\svchost\common\Dialupass.cpp"
+"C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\Server\svchost\common\FileManager.cpp"
+"C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\Server\svchost\common\install.cpp"
+"C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\Server\svchost\common\KernelManager.cpp"
+"C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\Server\svchost\common\KeyboardManager.cpp"
+"C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\Server\svchost\common\Manager.cpp"
+"C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\Server\svchost\common\RegEditEx.cpp"
+"C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\Server\svchost\common\ScreenManager.cpp"
+"C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\Server\svchost\common\ScreenSpy.cpp"
+"C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\Server\svchost\common\ShellManager.cpp"
+"C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\Server\svchost\svchost.cpp"
+"C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\Server\svchost\common\SystemManager.cpp"
+"C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\Server\svchost\common\until.cpp"
+"C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\Server\svchost\common\VideoCap.cpp"
+"C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\Server\svchost\common\VideoManager.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4E9.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4EA.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ../../common/zlib/zlib.lib Shlwapi.lib MSVCRT.LIB /nologo /dll /incremental:no /pdb:"Release/svchost.pdb" /machine:I386 /out:"../install/res/svchost.dll" /implib:"Release/svchost.lib" 
+".\Release\Audio.obj"
+".\Release\AudioManager.obj"
+".\Release\Buffer.obj"
+".\Release\ClientSocket.obj"
+".\Release\Dialupass.obj"
+".\Release\FileManager.obj"
+".\Release\install.obj"
+".\Release\KernelManager.obj"
+".\Release\KeyboardManager.obj"
+".\Release\Manager.obj"
+".\Release\RegEditEx.obj"
+".\Release\ScreenManager.obj"
+".\Release\ScreenSpy.obj"
+".\Release\ShellManager.obj"
+".\Release\svchost.obj"
+".\Release\SystemManager.obj"
+".\Release\until.obj"
+".\Release\VideoCap.obj"
+".\Release\VideoManager.obj"
+".\Release\svchost.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4EA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Audio.cpp
+AudioManager.cpp
+Buffer.cpp
+ClientSocket.cpp
+C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\Server\svchost\ClientSocket.cpp(8) : fatal error C1083: Cannot open include file: 'MSTcpIP.h': No such file or directory
+Dialupass.cpp
+FileManager.cpp
+install.cpp
+KernelManager.cpp
+../../common\CursorInfo.h(28) : error C2065: 'IDC_HAND' : undeclared identifier
+../../common\CursorInfo.h(28) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+../../common\CursorInfo.h(59) : error C2065: 'CURSORINFO' : undeclared identifier
+../../common\CursorInfo.h(59) : error C2146: syntax error : missing ';' before identifier 'ci'
+../../common\CursorInfo.h(59) : error C2065: 'ci' : undeclared identifier
+../../common\CursorInfo.h(60) : error C2228: left of '.cbSize' must have class/struct/union type
+../../common\CursorInfo.h(61) : error C2065: 'GetCursorInfo' : undeclared identifier
+../../common\CursorInfo.h(61) : error C2228: left of '.flags' must have class/struct/union type
+../../common\CursorInfo.h(61) : error C2065: 'CURSOR_SHOWING' : undeclared identifier
+../../common\CursorInfo.h(67) : error C2228: left of '.hCursor' must have class/struct/union type
+../../common\CursorInfo.h(70) : error C2228: left of '.hCursor' must have class/struct/union type
+KeyboardManager.cpp
+Manager.cpp
+RegEditEx.cpp
+ScreenManager.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\mswsock.h(69) : error C2065: 'SOCKET' : undeclared identifier
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\mswsock.h(69) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\mswsock.h(73) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\mswsock.h(89) : error C2146: syntax error : missing ')' before identifier 'hSocket'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\mswsock.h(96) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\mswsock.h(101) : error C2146: syntax error : missing ')' before identifier 'sListenSocket'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\mswsock.h(109) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\mswsock.h(131) : error C2146: syntax error : missing ')' before identifier 'hSocket'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\mswsock.h(131) : error C2165: 'left-side modifier' : cannot modify pointers to data
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\mswsock.h(131) : error C2071: 'LPFN_TRANSMITFILE' : illegal storage class
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\mswsock.h(138) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\mswsock.h(146) : error C2146: syntax error : missing ')' before identifier 'sListenSocket'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\mswsock.h(146) : error C2165: 'left-side modifier' : cannot modify pointers to data
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\mswsock.h(146) : error C2071: 'LPFN_ACCEPTEX' : illegal storage class
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\mswsock.h(154) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(85) : error C2378: 'SOCKET' : redefinition; symbol cannot be overloaded with a typedef
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(101) : error C2146: syntax error : missing ';' before identifier 'fd_array'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(101) : error C2501: 'SOCKET' : missing storage-class or type specifiers
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(101) : error C2501: 'fd_array' : missing storage-class or type specifiers
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(104) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1422) : error C2143: syntax error : missing ';' before '__stdcall'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1422) : error C2501: 'SOCKET' : missing storage-class or type specifiers
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1422) : error C2370: 'SOCKET' : redefinition; different storage class
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1424) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1424) : error C2501: 'accept' : missing storage-class or type specifiers
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1427) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1445) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1445) : error C2491: 'bind' : definition of dllimport data not allowed
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1448) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1467) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1467) : error C2491: 'closesocket' : definition of dllimport data not allowed
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1467) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1483) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1483) : error C2491: 'connect' : definition of dllimport data not allowed
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1486) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1504) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1504) : error C2491: 'ioctlsocket' : definition of dllimport data not allowed
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1507) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1525) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1525) : error C2491: 'getpeername' : definition of dllimport data not allowed
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1528) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1546) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1546) : error C2491: 'getsockname' : definition of dllimport data not allowed
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1549) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1567) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1567) : error C2491: 'getsockopt' : definition of dllimport data not allowed
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1572) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1660) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1660) : error C2491: 'listen' : definition of dllimport data not allowed
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1662) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1713) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1713) : error C2491: 'recv' : definition of dllimport data not allowed
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1717) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1736) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1736) : error C2491: 'recvfrom' : definition of dllimport data not allowed
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1742) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1788) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1788) : error C2491: 'send' : definition of dllimport data not allowed
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1792) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1811) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1811) : error C2491: 'sendto' : definition of dllimport data not allowed
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1817) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1838) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1838) : error C2491: 'setsockopt' : definition of dllimport data not allowed
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1843) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1863) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1863) : error C2491: 'shutdown' : definition of dllimport data not allowed
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1865) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1880) : error C2143: syntax error : missing ';' before '__stdcall'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1880) : error C2501: 'SOCKET' : missing storage-class or type specifiers
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(1880) : error C2370: 'SOCKET' : redefinition; different storage class
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2349) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2349) : error C2491: 'WSAAsyncSelect' : definition of dllimport data not allowed
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2353) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2399) : error C2143: syntax error : missing ';' before '__stdcall'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2399) : error C2501: 'SOCKET' : missing storage-class or type specifiers
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2399) : error C2370: 'SOCKET' : redefinition; different storage class
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2401) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2401) : error C2501: 'WSAAccept' : missing storage-class or type specifiers
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2406) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2443) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2443) : error C2491: 'WSAConnect' : definition of dllimport data not allowed
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2450) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2489) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2489) : error C2491: 'WSADuplicateSocketA' : definition of dllimport data not allowed
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2492) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2497) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2497) : error C2491: 'WSADuplicateSocketW' : definition of dllimport data not allowed
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2500) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2535) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2535) : error C2491: 'WSAEnumNetworkEvents' : definition of dllimport data not allowed
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2538) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2602) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2602) : error C2491: 'WSAEventSelect' : definition of dllimport data not allowed
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2605) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2623) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2623) : error C2491: 'WSAGetOverlappedResult' : definition of dllimport data not allowed
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2628) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2648) : error C2146: syntax error : missing ')' before identifier 's'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2648) : error C2491: 'WSAGetQOSByName' : definition of dllimport data not allowed
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2651) : error C2059: syntax error : ')'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\winsock2.h(2651) : fatal error C1003: error count exceeds 100; stopping compilation
+ScreenSpy.cpp
+../../common\CursorInfo.h(28) : error C2065: 'IDC_HAND' : undeclared identifier
+../../common\CursorInfo.h(28) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+../../common\CursorInfo.h(59) : error C2065: 'CURSORINFO' : undeclared identifier
+../../common\CursorInfo.h(59) : error C2146: syntax error : missing ';' before identifier 'ci'
+../../common\CursorInfo.h(59) : error C2065: 'ci' : undeclared identifier
+../../common\CursorInfo.h(60) : error C2228: left of '.cbSize' must have class/struct/union type
+../../common\CursorInfo.h(61) : error C2065: 'GetCursorInfo' : undeclared identifier
+../../common\CursorInfo.h(61) : error C2228: left of '.flags' must have class/struct/union type
+../../common\CursorInfo.h(61) : error C2065: 'CURSOR_SHOWING' : undeclared identifier
+../../common\CursorInfo.h(67) : error C2228: left of '.hCursor' must have class/struct/union type
+../../common\CursorInfo.h(70) : error C2228: left of '.hCursor' must have class/struct/union type
+C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\Server\svchost\common\ScreenSpy.cpp(299) : error C2065: 'CAPTUREBLT' : undeclared identifier
+ShellManager.cpp
+svchost.cpp
+SystemManager.cpp
+C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\Server\svchost\common\SystemManager.cpp(9) : fatal error C1083: Cannot open include file: 'psapi.h': No such file or directory
+until.cpp
+C:\Documents and Settings\Administrator\×ÀÃæ\Gh0st3.6_È¥Ó²ÅÌËø\Server\svchost\common\until.cpp(6) : fatal error C1083: Cannot open include file: 'Wtsapi32.h': No such file or directory
+VideoCap.cpp
+VideoManager.cpp
+Generating Code...
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+svchost.dll - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

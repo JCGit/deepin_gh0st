@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: install - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/install.res" /d "NDEBUG" "C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\Server\install\install.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4E7.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/install.pch" /YX"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\Server\install\install.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4E7.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4E8.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Shlwapi.lib /nologo /incremental:no /pdb:"Release/install.pdb" /machine:I386 /out:"../../gh0st/res/install.exe" 
+".\Release\install.obj"
+".\Release\install.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4E8.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+install.cpp
+C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\Server\install\decode.h(85) : warning C4305: '-=' : truncation from 'const int' to 'char'
+C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\Server\install\install.cpp(328) : error C2065: 'INVALID_FILE_ATTRIBUTES' : undeclared identifier
+C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\Server\install\install.cpp(328) : warning C4018: '!=' : signed/unsigned mismatch
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+install.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

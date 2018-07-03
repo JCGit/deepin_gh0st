@@ -1,0 +1,100 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: gh0st - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4E4.tmp" with contents
+[
+/nologo /MD /GX /O2 /I "CJ60lib/Include" /I "../common" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/gh0st.pch" /YX"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\common\Audio.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\AudioDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\BmpToAvi.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\control\BtnST.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\include\Buffer.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\BuildView.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\include\CpuUsage.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\CustomTabCtrl.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\FileManagerDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\FileTransferModeDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\gh0st.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\gh0stDoc.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\gh0stView.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\control\HoverEdit.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\IniFile.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\InputDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\include\IOCPServer.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\KeyBoardDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\MainFrm.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\ScreenSpyDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\SettingsView.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\SEU_QQwry.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\ShellDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\SystemDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\TabSDIFrameWnd.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\ThemeUtil.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\TrayIcon.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\TrueColorToolBar.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\WebCamDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\control\WinXPButtonST.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4E4.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4E5.tmp" with contents
+[
+/nologo /MD /GX /O2 /I "CJ60lib/Include" /I "../common" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/gh0st.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4E5.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4E6.tmp" with contents
+[
+../common/zlib/zlib.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/gh0st.pdb" /map:"Release/gh0st.map" /machine:I386 /nodefaultlib:"msvcrt.lib" /out:"../Bin/gh0st.exe" /libpath:"CJ60Lib/lib" 
+".\Release\Audio.obj"
+".\Release\AudioDlg.obj"
+".\Release\BmpToAvi.obj"
+".\Release\BtnST.obj"
+".\Release\Buffer.obj"
+".\Release\BuildView.obj"
+".\Release\CpuUsage.obj"
+".\Release\CustomTabCtrl.obj"
+".\Release\FileManagerDlg.obj"
+".\Release\FileTransferModeDlg.obj"
+".\Release\gh0st.obj"
+".\Release\gh0stDoc.obj"
+".\Release\gh0stView.obj"
+".\Release\HoverEdit.obj"
+".\Release\IniFile.obj"
+".\Release\InputDlg.obj"
+".\Release\IOCPServer.obj"
+".\Release\KeyBoardDlg.obj"
+".\Release\MainFrm.obj"
+".\Release\ScreenSpyDlg.obj"
+".\Release\SettingsView.obj"
+".\Release\SEU_QQwry.obj"
+".\Release\ShellDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\SystemDlg.obj"
+".\Release\TabSDIFrameWnd.obj"
+".\Release\ThemeUtil.obj"
+".\Release\TrayIcon.obj"
+".\Release\TrueColorToolBar.obj"
+".\Release\WebCamDlg.obj"
+".\Release\WinXPButtonST.obj"
+".\Release\gh0st.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4E6.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Automatically linking with CJ60StaticLib.lib
+C:\Documents and Settings\Administrator\桌面\Gh0st3.6_去硬盘锁\gh0st\include\IOCPServer.h(13) : fatal error C1083: Cannot open include file: 'MSTcpIP.h': No such file or directory
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+gh0st.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
