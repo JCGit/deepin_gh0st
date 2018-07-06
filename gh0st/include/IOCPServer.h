@@ -162,6 +162,8 @@ public:
 protected:
 	void InitializeClientRead(ClientContext* pContext);
 	BOOL AssociateSocketWithCompletionPort(SOCKET device, HANDLE hCompletionPort, DWORD dwCompletionKey);
+
+	// 移除陈旧的客户端连接
 	void RemoveStaleClient(ClientContext* pContext, BOOL bGraceful);
 	void MoveToFreePool(ClientContext *pContext);
 	ClientContext*  AllocateContext();

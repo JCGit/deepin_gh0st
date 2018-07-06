@@ -425,7 +425,7 @@ void CIOCPServer::OnAccept()
 // FUNCTION:	CIOCPServer::InitializeIOCP
 // 
 // DESCRIPTION:	Create a dummy socket and associate a completion port with it.
-//				once completion port is create we can dicard the socket
+//				once completion port is create we can discard the socket
 // 
 // INPUTS:		
 // 
@@ -480,7 +480,7 @@ bool CIOCPServer::InitializeIOCP(void)
 	m_cpu.Init();
 
 
-    // We use two worker threads for eachprocessor on the system--this is choosen as a good balance
+    // We use two worker threads for each processor on the system--this is choose as a good balance
     // that ensures that there are a sufficient number of threads available to get useful work done 
 	// but not too many that context switches consume significant overhead.
 	UINT nWorkerCnt = systemInfo.dwNumberOfProcessors * HUERISTIC_VALUE;
@@ -1136,7 +1136,7 @@ void CIOCPServer::RemoveStaleClient(ClientContext* pContext, BOOL bGraceful)
 	{
 
 		//
-		// Now close the socket handle.  This will do an abortive or  graceful close, as requested.  
+		// Now close the socket handle.  This will do an abortive or graceful close, as requested.  
 		CancelIo((HANDLE) pContext->m_Socket);
 
 		closesocket( pContext->m_Socket );

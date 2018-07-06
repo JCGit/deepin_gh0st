@@ -26,6 +26,7 @@ public:
 	// ClientContext地址为主键
 	bool m_bIsQQwryExist;
 	bool m_bIsDisablePopTips;
+	//被控端列表视图
 	CView*		m_pConnectView; // 主连接视图
 	CGh0stApp();
 

@@ -33,3 +33,68 @@ http://www.wolfexp.net/other/Gh0st_RAT/demo.rar
 
 
 更多请关注红狼安全小组官方网站 http://www.wolfexp.net/
+
+
+
+#源码分析
+
+
+CMainFrame	主UI框架类																										-
+																															|
+	NotifyProc	接收，并分发网络事件																						|
+																															|	
+	@NC_CLIENT_CONNECT																										|
+	@NC_CLIENT_DISCONNECT																									|
+	@NC_TRANSMIT:																											|
+	@NC_RECEIVE:					->	处理进度																			|
+	@NC_RECEIVE_COMPLETE			->  事件完成	-> 分发 窗口消息  逻辑消息												|
+																															|		
+																															|
+																															|
+																															|
+CGh0stApp	主逻辑类																										|
+	|																														|
+	|																														|
+	-------------------CGh0stView 链接视图类																				|
+							|																								|
+							|																								|
+							|																								|
+							--------------------------初始化 创建CSettingsView												|
+							|								 创建CBuildView													|
+							|																								|	
+							|																								|
+							|																	NotifyProc					|	
+							-------------------------CIOCPServer 控制端IO控制  ---------------------------------------->CMainFrame
+																|															|
+																|															|
+																|-----------ListenThreadProc------------------OnAccept------------PostRecv
+																|												  |			|
+																|												  |(绑定)	|
+																|-----------完成端口-------------------------------			|
+																|															|
+																|															|
+																|-----------ThreadPoolFunc工作线程-----------------ProcessIOMessage(OnClientReading, OnClientWriting, OnClientInitializing)
+
+
+
+#功能分发
+@CFileManagerDlg		文件管理
+@CScreenSpyDlg			屏幕控制
+@CWebCamDlg				视频查看
+@CAudioDlg				语音监听
+@CKeyBoardDlg			键盘记录
+@CSystemDlg				系统管理
+@CShellDlg				远程终端
+
+
+
+
+
+
+
+
+
+
+
+
+

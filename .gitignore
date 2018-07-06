@@ -14,7 +14,14 @@ gh0st/CJ60Lib/CJ60Lib/StaticRelease/
 gh0st/CJ60Lib/Lib/
 gh0st/CJ60Lib/CJ60Lib/CJ60Lib.suo
 
+gh0st/CJ60Lib/CJ60Lib/CJ60Lib.suo
 
+Debug/
+Server/install/Debug/
+Server/svchost/Debug/
+Server/svchost/Release/
+gh0st/Debug/
+ipch/
 
 
 
